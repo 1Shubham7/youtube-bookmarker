@@ -1,7 +1,7 @@
 {
-    "name": "My YT Bookmarks",
+    "name": "YouTube Bookmarker",
     "version": "0.1.0",
-    "description": "Saving timestamps in YT videos",
+    "description": "Bookmark multiple timestamps in your YouTube, No Download Needed",
     "permissions": ["storage", "tabs"],
     "host_permissions": ["https://*.youtube.com/*"],
     "background": {
@@ -30,7 +30,7 @@
         "24": "assets/ext-icon.png",
         "32": "assets/ext-icon.png"
       },
-      "default_title": "My YT Bookmarks",
+      "default_title": "YouTube Bookmarker",
       "default_popup": "popup.html"
     },
     "manifest_version": 3
