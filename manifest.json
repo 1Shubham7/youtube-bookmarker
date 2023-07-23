@@ -2,7 +2,9 @@
     "name": "YouTube Bookmarker",
     "version": "0.1.0",
     "description": "Bookmark multiple timestamps in your YouTube, No Download Needed",
-    "permissions": ["storage", "tabs"],
+    "permissions": ["storage", "tabs"], 
+    //  Here we are taking two permissions from Chrome - chrome.storage API and chrome.tabsAPI
+    // Chrome Tab.API because we want to know whether the user is in Youtube website or not
     "host_permissions": ["https://*.youtube.com/*"],
     "background": {
       "service_worker": "background.js"
@@ -31,7 +33,7 @@
         "32": "assets/ext-icon.png"
       },
       "default_title": "YouTube Bookmarker",
-      "default_popup": "popup.html"
+      "default_popup": "popup.html" //our UI file
     },
     "manifest_version": 3
 }
